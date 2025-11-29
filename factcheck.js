@@ -1,6 +1,6 @@
 // factcheck.js
 import { tavily } from "@tavily/core";
-const tvly = tavily({ apiKey: "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" });
+const tvly = tavily({  apiKey: process.env.TAVILY_API_KEY });
 
 export async function factCheck({ claim }) {
   // 1) Compose query variants to broaden coverage

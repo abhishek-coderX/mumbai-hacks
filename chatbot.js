@@ -7,8 +7,8 @@ import Groq from "groq-sdk";
 import { tavily } from "@tavily/core";
 import NodeCache from "node-cache";
 
-const tvly = tavily({ apiKey: "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" });
-const groq = new Groq({ apiKey: "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" });
+const tvly = tavily({  apiKey: process.env.TAVILY_API_KEY });
+const groq = new Groq({ apiKey: process.env.GROQ_API_KEY });
 
 const cache = new NodeCache({
   stdTTL: 60 * 60 * 24,
