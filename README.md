@@ -1,7 +1,4 @@
-<<<<<<< HEAD
-# webSearch
-=======
-# WebSearch Chatbot
+# FactChecher
 
 This project is a simple web-based chatbot application that leverages Google's Generative AI to provide responses to user queries. It features a Node.js Express backend that handles AI interactions and serves a basic HTML/JavaScript frontend for user interaction.
 
@@ -103,8 +100,3 @@ Here is an example of the chatbot's output for a fact-checking query:
     *   [Narendra Modi | Biography, Facts, & Yoga](https://www.britannica.com/biography/Narendra-Modi)
     *   [PMINDIA](https://www.pmindia.gov.in/en/)
 
-# FactChecher
->>>>>>> 2bf28cf (Initial commit)
-# mumbai-hacks
-# mumbai-hacks
-# mumbai-hacks
